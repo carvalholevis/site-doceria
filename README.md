@@ -2,9 +2,6 @@
 
 A responsive portfolio website showcasing my projects and skills, built with HTML and CSS.
 
-## 🚀 Live Demo
-
-[Add your live demo link here]
 
 ## ✨ Features
 
