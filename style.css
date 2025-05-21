@@ -1,0 +1,262 @@
+html {
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #A0522D;
+}
+
+a {
+    transition: .5s;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: #800000;
+    padding-top: 40px;
+}
+
+#sidebar h1 {
+    color: #D2691E;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+
+#sidebar a {
+    color: #D2691E;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#sidebar a:hover {
+    color: #F4A460;
+    
+}
+
+#sidebar li {
+    padding: 20px;
+}
+
+.sidebar-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CONTENT */
+
+.content {
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.content h1, .content h2 {
+    color: #D2691E;
+    margin-bottom: 30px;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content h2 {
+    font-size: 35px;
+}
+
+section {
+    padding-left: 50px;
+}
+
+/* WELCOME */
+
+#welcome-section {
+    padding-left: 0;
+}
+
+.welcome-section-content {
+    padding-left: 50px;
+
+}
+
+#welcome-section .banner {
+    height: 500px;
+    background-image: url('/img/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#welcome-section h1 {
+    margin-top: 70px;
+}
+
+#welcome-section::after, #whoAmI-section::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.minibanner-section {
+    width: 300px;
+    height: 400px;
+    background-image: url('img/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.description-section {	
+    position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.description-section p {	
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+}
+
+.welcome-section-btn, form input[type=submit] {
+    background-color: #800000;
+    color: bisque;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition: .5s;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+welcome-section-btn:hover, form input[type=submit]:hover {
+    background-color: #D2691E;
+}
+
+/* WHO AM I SECTION */
+
+#whoAmI-section .minibanner-section {
+    float: right;
+    margin-right: 50px;
+    background-image: url('/img/banner4.jpg');
+}
+
+#whoAmI-section .description-section {
+    position: absolute;
+    left: 25px;
+    width: calc(100% - 400px);
+}
+
+/* galerias */
+
+.banner-galeria {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+}
+
+#project1-section, #project2-section {
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.project1-imgs {
+    width: 18.8%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img1 {
+	background-image: url('/img/galeria1.jpg');
+	margin-left: 0;
+}
+
+#img2 {
+	background-image: url('/img/galeria2.jpg');
+}
+
+#img3 {
+	background-image: url('/img/galeria3.jpg');
+}
+
+#img4 {
+	background-image: url('/img/galeria4.jpg');
+}
+
+#img5 {
+	background-image: url('/img/galeria5.jpg');
+	margin-right: 0;
+}
+
+.project2-imgs {
+    width: 32.3%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img6 {
+	background-image: url('/img/galeria6.jpg');
+	margin-left: 0;
+}
+
+#img7 {
+	background-image: url('/img/galeria7.jpg');
+}
+
+#img8 {
+	background-image: url('/img/galeria8.jpg');
+	margin-right: 0;
+}
+
+/* CONTACT FORM */
+
+#contact-form {
+    width: 500px;
+}
+
+#contact-form input[type=text], #contact-form input[type=email], #contact-form textarea {
+    display: block;
+    border: 1px solid #F4A460;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Funnel Display", sans-serif;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    padding-top: 150px;
+    color: #F4A460;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
+
